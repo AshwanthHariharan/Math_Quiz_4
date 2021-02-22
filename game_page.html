@@ -1,0 +1,94 @@
+
+<html>
+
+<head>
+
+<title>Math Quiz - 4</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="game.css">
+
+<script src="game_page.js"></script>
+
+</head>
+
+<body id="background" onload="players_name()">
+
+    <h3 id="player1"></h3><span id="player1_score"></span>
+
+    <h3 id="player2"></h3><span id="player2_score"></span>  
+    
+<center> 
+
+<h1>The Math Quiz Game!!</h1>
+
+<img src="logo.png" id="logo">
+
+<br>
+
+<h3 id="question_turn"></h3>
+
+<br>
+
+<h3 id="answer_turn"></h3>
+
+<br>
+
+<div id="output">
+
+    <label id="value"></label>
+
+    <br>
+
+    <br>
+
+    Answer: <input id="input_check_box" type="number" placeholder="Number">
+    
+    <br>
+
+    <br>
+    
+    <button class="btn btn-info" onclick='check()'>Check</button>
+
+</div>
+
+<br>
+
+<h4><strong>Number 1</strong></h4>
+
+<input id="number_1" type="number" placeholder="Number 1" style="width: 40%;height: 32px;">
+
+<br>
+
+<br>
+
+<h4><strong>Choose either one of the Operator (+ - * / )</strong></h4>
+
+<input id="operator" placeholder="Operator" type="text" style="width: 40%;height: 32px;">
+
+<br>
+
+<br>
+
+<h4><strong>Number 2</strong></h4>
+
+<input id="number_2" type="number" placeholder="Number 2" style="width: 40%;height: 32px;">
+
+<br>
+
+<br>
+
+<button onclick="send()" class="btn btn-success" style="width:30%">Send</button>
+
+</center>   
+
+</body>
+
+</html>

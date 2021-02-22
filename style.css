@@ -1,0 +1,59 @@
+
+body {
+
+background-image: url("stage.jpg");
+
+background-position: center;
+
+background-size: cover;
+
+text-align: center;
+
+}
+
+
+#three_div {
+
+margin-bottom: 200px; 
+
+}
+
+#img {
+
+width:200px;
+
+height:200px;
+
+}
+
+#first_player {
+
+color: cyan;
+
+}
+
+#second_player {
+
+    color: cyan;
+    
+    }
+    
+    #logo {
+
+        width:200px;
+        
+        height:200px;
+        
+        }
+
+        #background {
+
+            background-image: url("stage.jpg");
+            
+            background-position: center;
+            
+            background-size: cover;
+            
+            text-align: center;
+            
+            }        

@@ -1,0 +1,75 @@
+    
+    #logo {
+
+        width:200px;
+        
+        height:200px;
+        
+        }
+
+        #background {
+
+            background-image: url("stage.jpg");
+            
+            background-position: center;
+            
+            background-size: cover;
+            
+            } 
+
+h1 {
+
+color:blueviolet;    
+
+}
+
+h4 {
+
+color: white;
+
+}
+
+#output
+
+{
+
+background: white;
+
+border-radius: 10px;
+
+border-top: 10px solid #AA4465;
+
+padding: 10px;
+
+float: none;
+
+text-align: left;
+
+}
+
+
+#scores {
+
+float:left;
+
+top:0;
+
+}
+
+#value {
+
+color: black;
+
+}
+
+h3 {
+
+color: white;
+
+}
+
+span {
+
+color: white;
+
+}
